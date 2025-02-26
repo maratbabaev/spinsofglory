@@ -728,7 +728,8 @@ header .container {
   margin-bottom: 10px;
 }
 .content__item p,
-.content__item .content__table {
+.content__item .content__table,
+.content__item ul {
   margin-bottom: 20px;
 }
 .content__item ol,
@@ -749,7 +750,7 @@ header .container {
 .content__item h3:last-child,
 .content__item ol:last-child,
 .content__item p:last-child,
-.content__item .content__table:last-child {
+.content__item ul .content__table:last-child {
   margin-bottom: 0;
 }
 .content__item.faq .faq__item {
@@ -788,8 +789,7 @@ header .container {
 }
 
 .table--style tr:first-child td {
-  background: linear-gradient(180deg, rgb(219, 255, 0) 0%, rgb(180, 197, 0) 100%);
-  color: rgb(3, 10, 10);
+  background: linear-gradient(180deg, rgb(4, 92, 180) 0%, rgb(5, 20, 97) 100%) padding-box, linear-gradient(180deg, rgb(6, 133, 216) 0%, rgb(8, 33, 115) 100%) border-box;
 }
 .table--style th {
   background: linear-gradient(180deg, rgb(219, 255, 0) 0%, rgb(180, 197, 0) 100%);

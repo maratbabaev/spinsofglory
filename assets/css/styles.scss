@@ -869,7 +869,8 @@ header {
 		margin-bottom: 10px;
 	}
 	p,
-	.content__table {
+	.content__table,
+	ul {
 		margin-bottom: 20px;
 	}
 	ol,
@@ -890,7 +891,7 @@ header {
 	h3,
 	ol,
 	p,
-	.content__table {
+	ul .content__table {
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -939,11 +940,13 @@ header {
 		&:first-child {
 			td {
 				background: linear-gradient(
-					180deg,
-					rgb(219, 255, 0) 0%,
-					rgb(180, 197, 0) 100%
-				);
-				color: rgb(3, 10, 10);
+							180deg,
+							rgb(4, 92, 180) 0%,
+							rgb(5, 20, 97) 100%
+						)
+						padding-box,
+					linear-gradient(180deg, rgb(6, 133, 216) 0%, rgb(8, 33, 115) 100%)
+						border-box;
 			}
 		}
 	}
